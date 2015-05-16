@@ -3,22 +3,36 @@ Automatically exported from code.google.com/p/wintee
 
 binary for windows is here:
 https://wintee.googlecode.com/files/wtee.exe
+  
 and
+  
 https://github.com/WinLAFS/wintee/releases
+  
 here:
+  
 https://github.com/WinLAFS/wintee/releases/download/v1.0.1/wtee.exe
+  
 wiki is downloaded as branch
+  
 https://github.com/WinLAFS/wintee/tree/wiki
-
+  
+  
 identical aim other solution
+  
 see https://github.com/mpderbec/WinTee
+   
 
 example use:
+  
 c:\ dir >> logfile.log [standart use no cli output]
+  
 c:\ dir | wtee -a logfile.log [the directory will be in the logfile.log and on the screen]
-
+  
+  
 c:\ dir > "c:\logs\log.txt"
+  
 c:\ dir | "c:\tools\wtee" "c:\logs\log.txt"
+  
 
 1) Created a folder C:\tmp\sarai lee
 
