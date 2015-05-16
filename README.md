@@ -26,28 +26,13 @@ example use:
   
 c:\ dir >> logfile.log [standart use no cli output]
   
-c:\ dir | wtee -a logfile.log [the directory will be in the logfile.log and on the screen]
+c:\ dir | wtee -a logfile.log [the directory will be apended in the logfile.log and on the screen]
   
   
-c:\ dir > "c:\logs\log.txt"
+c:\ dir > "c:\logs\log.txt"[standart use no output on screen]
   
-c:\ dir | "c:\tools\wtee" "c:\logs\log.txt"
+c:\ dir | "c:\tools\wtee" "c:\logs\log.txt" [the directory will be once in the logfile.log and on the screen]
   
-
-1) Created a folder C:\tmp\sarai lee
-
-2) Created a file c:\tmp\sarai lee\currdate.cmd
-
-3) The contents of the file is
-
-@echo off date /T time /T
-
-4) Able to log output via
-
-"c:\tmp\sarai lee\currdate.cmd" | wtee "c:\tmp\sarai lee\long name (with spaces) for logfile.log" 
-
-
-
 
 -------------------
 some practical questions and solutions
